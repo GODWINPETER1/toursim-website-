@@ -10,11 +10,8 @@ const HomePage = () => {
       <Header />
       {/* Full-width Hero Section */}
       <HeroPage />
-      <ServiceSection/>
-      <Packages/>
-      {/* Main Content */}
-      <main className="p-4 container mx-auto">
-      </main>
+      <ServiceSection />
+      <Packages />
     </div>
   );
 };

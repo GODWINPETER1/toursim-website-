@@ -8,7 +8,7 @@ import { IoMdCheckbox } from "react-icons/io";
 
 const ServiceSection: React.FC = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center mt-8 px-4 md:px-8">
+    <section id="services" className="w-full flex flex-col items-center justify-center mt-8 px-4 md:px-8">
       {/* Header Section */}
       <div className="text-center">
         <h1 className="text-3xl md:text-4xl font-bold my-4">Our Great Services</h1>
@@ -100,7 +100,7 @@ const ServiceSection: React.FC = () => {
             </div>
 
             {/* Image Content */}
-            <div className="w-full md:w-1/2 flex justify-center relative left-20 bg-[#fff] shadow-2xl">
+            <div className="w-full md:w-1/2 flex justify-center relative md:left-20  bg-[#fff] shadow-2xl">
               <TabsContent value="airplane Ticket">
                 <img src={Img1} alt="Airplane Ticket" className="rounded-lg shadow-md w-full max-w-xs md:max-w-sm" />
               </TabsContent>
@@ -117,7 +117,7 @@ const ServiceSection: React.FC = () => {
           </div>
         </Tabs>
       </div>
-    </div>
+    </section>
   );
 };
 
