@@ -1,4 +1,3 @@
-import React from "react";
 import HeroPage from "@/components/hero/HeroPage";
 import Header from "../../components/layout/Header";
 import ServiceSection from "@/components/layout/servicesSection";
@@ -9,14 +8,10 @@ const HomePage = () => {
     <div className="w-full">
       {/* Sticky Header */}
       <Header />
-
       {/* Full-width Hero Section */}
       <HeroPage />
-
       <ServiceSection/>
-
       <Packages/>
-
       {/* Main Content */}
       <main className="p-4 container mx-auto">
       </main>
